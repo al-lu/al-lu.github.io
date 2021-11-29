@@ -1,0 +1,292 @@
+/*
+  GLOBAL
+*/
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  NAV
+*/
+
+nav ul {
+  top: 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: #f4f4f4; /* WhiteSmoke */
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #252324; /* Glossy Black */
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #cfcfcb;
+}
+
+.line {
+  font-weight: 700;
+}
+
+/*  
+  Hero Text
+*/
+
+.logo img{
+  margin-top: 2px;
+  margin-left: 10px;
+  justify-content: center;
+  max-width: 30%;
+  transition: 3s;
+}
+
+.logo img:hover {
+  opacity: 0;
+
+}
+
+.intro {
+  margin-top: -50px;
+  top: 0;
+  background: #fcfcfa; /* White */
+  min-height: 55vh;
+  padding-top: 45vh;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+.intro p {
+  color: #252324;;
+  letter-spacing: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+}
+
+.hr-text::before {
+  content: '';
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.hr-text::after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  padding-left: 1.7em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+hr.zig, hr.zag {
+  border: none;
+  height: 30px;
+  margin: 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em
+}
+
+hr.zig{
+  background: linear-gradient(-135deg, #fcfcfa 20px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, #fcfcfa 20px, rgba(0, 0, 0, 0) 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 100;
+  position: relative;
+}
+
+hr.zag {
+  background: linear-gradient(-135deg, #333 20px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, #333 20px, #fcfcfa 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 50;
+  margin-top: -28px;
+}
+
+
+/* 
+  Projects 
+*/
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: #252324;
+  font-weight: normal;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid #cfcfcb; /* Light Gray */
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid #252324;
+}
+
+.project-title {
+  font-weight: bold;
+  color: #252324;
+  margin-top: 5px;
+}
+
+.show-all {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 20px auto 90px;
+  background: #e0ebe8;
+  color: #252324;
+  font-weight: bold;
+  font-size: 1em;
+  border: 2px solid #cfcfcb;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top:10px;
+}
+
+
+.show-all:hover {
+  background: #E4F1FE;
+  color: #cfcfcb;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
+
+.contact {
+  background: #fcfcfa;
+  padding-bottom: 160px;
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+.header p {
+  padding-top: 15px;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.tip {
+  visibility: visible;
+  padding-top: 15px;
+  opacity: 0;
+  transition: 5s;
+ 
+}
+
+.tip:hover{
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid #cfcfcb;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: #e0ebe8;
+  color: #252324;
+  text-decoration: none;
+}
+
+.contact-details img {
+  height: 100%;
+  z-index: 1000;
+  opacity: 0;
+}
+
+.contact-details img:hover {
+  z-index: 1001;
+  opacity: 1;
+}
+
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+@media only screen and (max-width: 367px) {
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
+
