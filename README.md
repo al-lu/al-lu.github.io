@@ -1,2 +1,34 @@
-# al-la.github.io
-Need to make more projects to be able to get work.............
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Requirements
+ * Installation
+ * Configuration
+ * Troubleshooting
+ * FAQ
+ * Maintainers
+
+INTRODUCTION
+------------
+
+REQUIREMENTS
+------------
+
+RECOMMENDED MODULES
+-------------------
+
+INSTALLATION
+------------
+
+CONFIGURATION
+-------------
+
+TROUBLESHOOTING
+---------------
+
+FAQ
+---
+
+MAINTAINERS
+-----------
