@@ -1,6 +1,19 @@
 /*
-  GLOBAL
+
+Author:     al-lu
+
+Contents: 1. Global
+          2. Navigation
+          3. Hero text
+          4. Work
+          5. Github
+          6. Footer
+
+
+
 */
+
+/*******************************   Global   *******************************/
 
 html,
 body {
@@ -13,9 +26,8 @@ body {
   padding: 0;
 }
 
-/*
-  NAV
-*/
+
+/*******************************   Nav   *******************************/
 
 nav ul {
   top: 0;
@@ -45,9 +57,8 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
-/*  
-  Hero Text
-*/
+
+/*******************************   Hero Text   *******************************/
 
 .logo img{
   margin-top: 2px;
@@ -142,9 +153,7 @@ hr.zag {
 }
 
 
-/* 
-  Projects 
-*/
+/*******************************   Work   *******************************/
 
 .work {
   padding-top: 60px;
@@ -214,13 +223,21 @@ hr.zag {
   }
 }
 
+
+/*******************************   Github   *******************************/
+
 .github {
   background: #fcfcfa;
-  padding-bottom: 160px;
+  padding-bottom: 50px;
 }
 
 .guso {
-  padding: 160px 0 110px;
+  padding: 160px 0px 110px;
+}
+
+.quso h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .binary {
@@ -229,9 +246,26 @@ hr.zag {
   padding-bottom: 15px;
 }
 
+.binary{
+  overflow: hidden; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .10em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
 .tip {
   visibility: visible;
   padding-top: 15px;
+  padding-bottom: 25px;
   opacity: 0;
   transition: 5s;
  
@@ -245,7 +279,7 @@ hr.zag {
 .github-details {
   display: inline-block;
   font-weight: bold;
-  margin: 0 35px 45px 35px;
+  margin: 30px 35px 45px 35px;
   list-style-type: none;
   border: 2px solid #cfcfcb;
   border-radius: 100%;
@@ -267,6 +301,9 @@ hr.zag {
   z-index: 1001;
   opacity: 1;
 }
+
+
+/*******************************   Footer   *******************************/
 
 footer {
   padding: 20px;

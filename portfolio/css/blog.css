@@ -2,13 +2,21 @@
 
 Author:     al-lu
 
-Contents:
+Contents: 1. Global
+          2. Typography
+          3. Links
+          4. Header Banner
+          5. Navigation
+          6. Blog Text
+          7. Back BTN
+          8. Footnotes
 
 
 
 */
 
 
+/*******************************   Global   *******************************/
 
 * 
 {
@@ -21,7 +29,7 @@ html
 {
   background: #fff;
   color: #505050;
-  font: normal 300 100%/1.5 "Proxima Nova Condensed", "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font: normal 300 100%/1.5  Helvetica, Arial, sans-serif; 
 }
 
 .wrapper-wraps 
@@ -31,6 +39,8 @@ html
   padding: 0 20px; 
 }
 
+
+/*******************************   Typography   *******************************/
 
 h1, h2, h3, h4, h5, h6 
 {
@@ -82,6 +92,9 @@ ul li, ol li
   margin-bottom: 0.5em; 
 }
 
+
+/*******************************   Links   *******************************/
+
 a 
 {
   color: #cfcfcb;;
@@ -124,6 +137,7 @@ a.button:hover
 }
 
 
+/*******************************   Header Banner   *******************************/
 
 #header-top 
 {
@@ -173,6 +187,10 @@ a.button:hover
   }
 
 }
+
+
+/*******************************   Nav   *******************************/
+
 .nav ul 
 {
   margin-bottom: 0; 
@@ -250,6 +268,7 @@ a.button:hover
 }
 
 
+/*******************************   Blog Text   *******************************/
 
 .blog-entry 
 {
@@ -319,6 +338,7 @@ a.button:hover
 }
 
 
+/*******************************   Back BTN   *******************************/
 
 .back
 {
@@ -336,6 +356,8 @@ a.button:hover
   width: 140px; 
 }
 
+
+/*******************************   Footnotes   *******************************/
 
 .footnotes 
 {

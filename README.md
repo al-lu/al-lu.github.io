@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 CONTENTS OF THIS FILE
 ---------------------
 
@@ -35,4 +32,3 @@ FAQ
 
 MAINTAINERS
 -----------
->>>>>>> 4fc583cc001594ac792c45c3437a9ee9ab947a9c
