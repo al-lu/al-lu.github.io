@@ -244,6 +244,8 @@ hr.zag {
   padding-top: 15px;
   font-weight: 200;
   padding-bottom: 15px;
+  text-align: center;
+  width:100%; 
 }
 
 .binary{
@@ -275,6 +277,7 @@ hr.zag {
   visibility: visible;
   opacity: 1;
 }
+
 
 .github-details {
   display: inline-block;
