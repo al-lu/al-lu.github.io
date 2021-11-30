@@ -214,16 +214,16 @@ hr.zag {
   }
 }
 
-.contact {
+.github {
   background: #fcfcfa;
   padding-bottom: 160px;
 }
 
-.header {
+.guso {
   padding: 160px 0 110px;
 }
 
-.header p {
+.binary {
   padding-top: 15px;
   font-weight: 200;
   padding-bottom: 15px;
@@ -242,7 +242,7 @@ hr.zag {
   opacity: 1;
 }
 
-.contact-details {
+.github-details {
   display: inline-block;
   font-weight: bold;
   margin: 0 35px 45px 35px;
@@ -257,13 +257,13 @@ hr.zag {
   text-decoration: none;
 }
 
-.contact-details img {
+.github-details img {
   height: 100%;
   z-index: 1000;
   opacity: 0;
 }
 
-.contact-details img:hover {
+.github-details img:hover {
   z-index: 1001;
   opacity: 1;
 }
@@ -280,7 +280,7 @@ footer a {
 }
 
 @media only screen and (max-width: 367px) {
-  .contact-details {
+  .github-details {
     border: 2px solid #90C695;
     border-radius: 0;
     width: 90px;
