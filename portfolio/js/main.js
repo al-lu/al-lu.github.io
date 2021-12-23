@@ -8,10 +8,10 @@
  */
 
 function binaryToString(str) {
-    var newBin = str.split(" ");
+    var bin = str.split(" ");
     var binCode = [];
-    for (i = 0; i < newBin.length; i++) {
-        binCode.push(String.fromCharCode(parseInt(newBin[i], 2)));
+    for (i = 0; i < bin.length; i++) {
+        binCode.push(String.fromCharCode(parseInt(bin[i], 2)));
     }
     return binCode.join("");
 
@@ -20,5 +20,5 @@ function binaryToString(str) {
 function giveAnswer() {
     let binary = document.getElementById("binary").dataset.value;
     let output = document.getElementById("output-text");
-    output.innerHTML = binaryToString(binary)
+    output.innerHTML = binaryToString(binary);
 }
