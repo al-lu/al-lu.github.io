@@ -358,6 +358,38 @@ hr.zag {
   to { width: 100% }
 } */
 
+.arrow-icon .fas{
+  font-size: 70px;
+}
+
+#tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+
+#tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  width: 130px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+#tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .tip {
   visibility: visible;
   padding-top: 5px;
