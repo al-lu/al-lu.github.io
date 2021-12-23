@@ -5,7 +5,7 @@
  * it triggers binary number conversion.
  * 
  * Add click events for work thumbnails to bring the user to my blog. 
- * 
+ * Going to do this later because I have to actually write something first.
  */
 
 function binaryToString(str) {
