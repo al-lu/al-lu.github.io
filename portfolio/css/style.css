@@ -75,7 +75,7 @@ nav ul li a:hover {
 }
 
 .logo img:hover {
-  filter: invert(4%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  filter: invert(4%) sepia(27%) saturate(396%) hue-rotate(89deg) brightness(118%) contrast(119%);
 }
 
 .intro {
