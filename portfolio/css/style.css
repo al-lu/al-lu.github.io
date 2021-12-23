@@ -252,57 +252,57 @@ hr.zag {
 }
     
 .work-one {
-  background-image: url("/portfolio/img/detection-thumb.png");
+  background-image: url("../img/detection-thumb.png");
   background-size: 165%;
 }
 
 .work-one:hover {
-  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/detection-thumb.png");
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/detection-thumb.png");
 }
 
 .work-two {
-  background-image: url("/portfolio/img/formula-db-thumb.png");
+  background-image: url("../img/formula-db-thumb.png");
   background-size: 165%;
 }
 
 .work-two:hover {
-  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/formula-db-thumb.png");
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/formula-db-thumb.png");
 }
 
 .work-three {
-  background-image: url("/portfolio/img/ffmpeg-thumb.png");
+  background-image: url("../img/ffmpeg-thumb.png");
   background-size: 165%;
 }
 
 .work-three:hover {
-  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/ffmpeg-thumb.png");
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/ffmpeg-thumb.png");
 }
 
 .work-four {
-  background-image: url("/portfolio/img/selenium-thumb.PNG");
+  background-image: url("../img/selenium-thumb.PNG");
   background-size: 165%;
 }
 
 .work-four:hover {
-  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/selenium-thumb.PNG");
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/selenium-thumb.PNG");
 }
 
 .work-five {
-  background-image: url("/portfolio/img/pygame-thumb.PNG");
+  background-image: url("../img/pygame-thumb.PNG");
   background-size: 165%;
 }
 
 .work-five:hover {
-  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/pygame-thumb.PNG");
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/pygame-thumb.PNG");
 }
 
 .work-six {
-  background-image: url("/portfolio/img/unity-thumb.PNG");
+  background-image: url("../img/unity-thumb.PNG");
   background-size: 165%;
 }
 
 .work-six:hover {
-  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/unity-thumb.PNG");
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/unity-thumb.PNG");
 }
 
 .work-intro-block p:hover{
