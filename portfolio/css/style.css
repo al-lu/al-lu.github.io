@@ -346,6 +346,11 @@ hr.zag {
     blink-caret .75s step-end infinite;
 }
 
+#output-text {
+  padding-top: 20px;
+  font-size: medium;
+}
+
 /* The typing effect */
 /* @keyframes typing {
   from { width: 0 }
