@@ -8,12 +8,12 @@ Contents: 1. Global
           4. Work
           5. Github
           6. Footer
-
-
-
+          7. Responsive
 */
 
-/*******************************   Global   *******************************/
+/***************************************************************************************/
+/*----------------------- 1.  Global Styles  --------------------------------------------*/
+/***************************************************************************************/
 
 html,
 body {
@@ -27,7 +27,9 @@ body {
 }
 
 
-/*******************************   Nav   *******************************/
+/***************************************************************************************/
+/*----------------------- 2.  Nav Styles  --------------------------------------------*/
+/***************************************************************************************/
 
 nav ul {
   top: 0;
@@ -35,6 +37,7 @@ nav ul {
   position: fixed;
   width: 100%;
   background-color: #f4f4f4; /* WhiteSmoke */
+  z-index: 10000;
 }
 
 nav ul li {
@@ -58,27 +61,29 @@ nav ul li a:hover {
 }
 
 
-/*******************************   Hero Text   *******************************/
+/***************************************************************************************/
+/*----------------------- 3.  Hero Styles  --------------------------------------------*/
+/***************************************************************************************/
+
 
 .logo img{
   margin-top: 2px;
-  margin-left: 10px;
   justify-content: center;
   max-width: 30%;
   transition: 3s;
 }
 
 .logo img:hover {
-  opacity: 0;
-
+  filter: invert(4%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
 .intro {
-  margin-top: -50px;
+  margin-top: -50px; 
   top: 0;
   background: #fcfcfa; /* White */
-  min-height: 55vh;
-  padding-top: 45vh;
+  min-height: 55vh; 
+  padding-top: 45vh; 
+  padding-bottom: 15vh;
   letter-spacing: 20px;
   text-align: center;
 }
@@ -152,79 +157,162 @@ hr.zag {
   margin-top: -28px;
 }
 
+/***************************************************************************************/
+/*----------------------- 4.  Work Styles  --------------------------------------------*/
+/***************************************************************************************/
 
-/*******************************   Work   *******************************/
-
-.work {
-  padding-top: 60px;
-  margin-top: -60px;
-}
-
-.work .work-header {
-  margin-top: 50px;
-  color: #252324;
-  font-weight: normal;
-}
-
-.project {
-  text-decoration: none;
-  color: #008080;
-  display: inline-block;
-  overflow: hidden;
-  border: 2px solid #cfcfcb; /* Light Gray */
-  height: 220px;
-  width: 280px;
-  margin: 40px 100px;
-}
-
-.project-pic {
-  width: 100%;
-  height: 180px;
-  border-bottom: 2px solid #252324;
-}
-
-.project-title {
-  font-weight: bold;
-  color: #252324;
-  margin-top: 5px;
-}
-
-.show-all {
-  text-decoration: none;
-  display: block;
-  width: 200px;
-  height: 30px;
-  margin: 20px auto 90px;
-  background: #e0ebe8;
-  color: #252324;
-  font-weight: bold;
-  font-size: 1em;
-  border: 2px solid #cfcfcb;
-  border-radius: 4px;
-  cursor: pointer;
-  padding-top:10px;
-}
-
-
-.show-all:hover {
-  background: #E4F1FE;
-  color: #cfcfcb;
-}
-
-@media only screen and (max-width: 500px) {
-  nav ul {
+.work-intro-area {
+    position: relative;
+    padding: 100px 8px;
     text-align: center;
-  }
-  nav ul li {
-    margin: 20px;
-  }
-  .project {
-    margin: 40px 0;
-  }
 }
 
+.sub-heading {
+    position: relative;
+    margin-bottom: 75px;
+    
+}
 
-/*******************************   Github   *******************************/
+.sub-heading:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -3%;
+    width: 6%;
+    height: 1px;
+    background-color: #22313f;
+    z-index: 1;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.sub-heading:hover:before {
+    width: 24%;
+    margin-left: -12%;
+}
+
+.sub-heading:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 1px;
+    background-color: #e1e1e1;
+}
+
+.sub-heading p {
+    color: #818181;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+}
+
+.work-intro-block {
+    position: relative;
+    background-color: #f7f7f7;
+    margin: 50px 0px 0px;
+    text-align: center;
+    padding: 70px 25px 40px;
+    border-radius: 50%;
+    min-height: 320px;
+    cursor: pointer;
+}
+
+.work-intro-block h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 55px;
+    opacity: 0;
+    z-index: 1000;  
+    
+}
+
+.work-intro-block p {
+    color: #ffffff;
+    font-size: 22px;
+    opacity: 0;
+    z-index: 1000;
+
+}
+
+.work-intro-block:hover h3, .work-intro-block:hover p {
+    color: #ffffff;
+    opacity: 1;
+    z-index: 1001;
+}
+    
+.work-one {
+  background-image: url("/portfolio/img/detection-thumb.png");
+  background-size: 165%;
+}
+
+.work-one:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/detection-thumb.png");
+}
+
+.work-two {
+  background-image: url("/portfolio/img/formula-db-thumb.png");
+  background-size: 165%;
+}
+
+.work-two:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/formula-db-thumb.png");
+}
+
+.work-three {
+  background-image: url("/portfolio/img/ffmpeg-thumb.png");
+  background-size: 165%;
+}
+
+.work-three:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/ffmpeg-thumb.png");
+}
+
+.work-four {
+  background-image: url("/portfolio/img/selenium-thumb.PNG");
+  background-size: 165%;
+}
+
+.work-four:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/selenium-thumb.PNG");
+}
+
+.work-five {
+  background-image: url("/portfolio/img/pygame-thumb.PNG");
+  background-size: 165%;
+}
+
+.work-five:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/pygame-thumb.PNG");
+}
+
+.work-six {
+  background-image: url("/portfolio/img/unity-thumb.PNG");
+  background-size: 165%;
+}
+
+.work-six:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("/portfolio/img/unity-thumb.PNG");
+}
+
+.work-intro-block p:hover{
+  z-index: 1001;
+  opacity: 1;
+}
+
+/***************************************************************************************/
+/*----------------------- 5.  Github Styles  --------------------------------------------*/
+/***************************************************************************************/
 
 .github {
   background: #fcfcfa;
@@ -232,7 +320,7 @@ hr.zag {
 }
 
 .quso {
-  padding: 160px 0px 110px;
+  padding: 10px 0px 110px;
 }
 
 .quso h1 {
@@ -259,10 +347,10 @@ hr.zag {
 }
 
 /* The typing effect */
-@keyframes typing {
+/* @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
+} */
 
 .tip {
   visibility: visible;
@@ -292,21 +380,26 @@ hr.zag {
   background: #e0ebe8;
   color: #252324;
   text-decoration: none;
+  background-image: url("../img/GitHub-Mark-Light-64px.png");
+  background-size: cover;
 }
+
+/* Saved these setting if I want to later change the transparensy of this element */
 
 .github-details img {
-  height: 100%;
-  z-index: 1000;
-  opacity: 0;
+  height: 102%;
+  /* z-index: 1000;
+  opacity: 0; */
 }
 
-.github-details img:hover {
+/* .github-details img:hover {
   z-index: 1001;
   opacity: 1;
-}
+} */
 
-
-/*******************************   Footer   *******************************/
+/***************************************************************************************/
+/*----------------------- 6.  Footer Styles  --------------------------------------------*/
+/***************************************************************************************/
 
 footer {
   padding: 20px;
@@ -319,7 +412,23 @@ footer a {
   color: white;
 }
 
-@media only screen and (max-width: 367px) {
+/***************************************************************************************/
+/*----------------------- 7.  Responsive Styles  --------------------------------------*/
+/***************************************************************************************/
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
+
+/* @media only screen and (max-width: 367px) {
   .github-details {
     border: 2px solid #90C695;
     border-radius: 0;
@@ -328,5 +437,6 @@ footer a {
     padding: 10px;
     line-height: normal;
   }
-}
+} */
+
 
