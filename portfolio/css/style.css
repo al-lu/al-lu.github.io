@@ -362,12 +362,10 @@ hr.zag {
   font-size: 70px;
 }
 
-#tooltip {
+ #tooltip {
   position: relative;
   display: inline-block;
-  /* border-bottom: 1px dotted black; */
 }
-
 
 #tooltip .tooltiptext {
   visibility: hidden;
@@ -388,7 +386,7 @@ hr.zag {
 
 #tooltip:hover .tooltiptext {
   visibility: visible;
-}
+} 
 
 .tip {
   visibility: visible;
