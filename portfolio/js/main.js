@@ -1,6 +1,10 @@
 /**
  * Write binary number converter Here!
  * 
+ * Binary conversion could be done with other ways too. 
+ * Now I'm thinking that should I just replace the binary numbers by their text equivalent. 
+ * Or just just leave it like it is by just appending the converted text beneath the numbers.
+ * 
  * When user bring mouse over the element and clicks, 
  * it triggers binary number conversion.
  * 
