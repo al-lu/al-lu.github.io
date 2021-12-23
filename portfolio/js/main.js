@@ -17,7 +17,7 @@ function binaryToString(str) {
 
 }
 
-function giveAnswer(text) {
+function giveAnswer() {
     let binary = document.getElementById("binary").dataset.value;
     let output = document.getElementById("output-text");
     output.innerHTML = binaryToString(binary)
