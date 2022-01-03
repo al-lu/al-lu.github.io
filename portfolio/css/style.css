@@ -306,6 +306,15 @@ hr.zag {
   background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/unity-thumb.PNG");
 }
 
+.work-seven {
+  background-image: url("../img/tess.PNG");
+  background-size: 165%;
+}
+
+.work-seven:hover {
+  background-image:linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.4)), url("../img/tess.PNG");
+}
+
 .work-intro-block p:hover{
   z-index: 1001;
   opacity: 1;
