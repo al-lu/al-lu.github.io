@@ -255,6 +255,9 @@ hr.zag {
 .work-one {
   background-image: url("../img/detection-thumb.png");
   background-size: 165%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-one:hover {
@@ -264,6 +267,8 @@ hr.zag {
 .work-two {
   background-image: url("../img/formula-db-thumb.png");
   background-size: 165%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-two:hover {
@@ -273,6 +278,8 @@ hr.zag {
 .work-three {
   background-image: url("../img/ffmpeg-thumb.png");
   background-size: 165%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-three:hover {
@@ -282,6 +289,8 @@ hr.zag {
 .work-four {
   background-image: url("../img/selenium-thumb.PNG");
   background-size: 165%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-four:hover {
@@ -291,6 +300,8 @@ hr.zag {
 .work-five {
   background-image: url("../img/pygame-thumb.PNG");
   background-size: 165%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-five:hover {
@@ -300,6 +311,8 @@ hr.zag {
 .work-six {
   background-image: url("../img/unity-thumb.PNG");
   background-size: 165%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-six:hover {
@@ -308,8 +321,10 @@ hr.zag {
 
 .work-seven {
   background-image: url("../img/tess.PNG");
-  background-size: 165%;
-  /* background-repeat: no repeat; */
+  background-size: 105%;
+  border-radius: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work-seven:hover {
