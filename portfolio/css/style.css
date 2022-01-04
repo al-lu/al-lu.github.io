@@ -309,6 +309,7 @@ hr.zag {
 .work-seven {
   background-image: url("../img/tess.PNG");
   background-size: 165%;
+  /* background-repeat: no repeat; */
 }
 
 .work-seven:hover {
