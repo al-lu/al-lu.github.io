@@ -27,3 +27,10 @@ function giveAnswer() {
     let output = document.getElementById("output-text");
     output.innerHTML = binaryToString(binary);
 }
+
+// Click event for redirecting user to selected game page.
+
+$(".work-seven").click(function () {
+    window.location = $(this).find("a").attr("href");
+    return false;
+});

@@ -225,6 +225,7 @@ hr.zag {
     border-radius: 50%;
     min-height: 320px;
     cursor: pointer;
+    
 }
 
 .work-intro-block h3 {
@@ -245,6 +246,10 @@ hr.zag {
     z-index: 1000;
 
 }
+/* 
+.work-intro-block a {
+  text-decoration: none;
+} */
 
 .work-intro-block:hover h3, .work-intro-block:hover p {
     color: #ffffff;
@@ -335,6 +340,7 @@ hr.zag {
   z-index: 1001;
   opacity: 1;
 }
+
 
 /***************************************************************************************/
 /*----------------------- 5.  Github Styles  --------------------------------------------*/
@@ -489,9 +495,9 @@ footer a {
   nav ul li {
     margin: 20px;
   }
-  .project {
+  /* .project {
     margin: 40px 0;
-  }
+  } */
 }
 
 /* @media only screen and (max-width: 367px) {

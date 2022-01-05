@@ -172,6 +172,17 @@ a.button:hover
   float: right;
 }
 
+.project-gif {
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.project-gif img {
+  border-radius: 10%;
+}
+
 @media only screen and (max-width: 400px) 
 {
   #header-top 
@@ -184,6 +195,10 @@ a.button:hover
     float: none;
     margin: 0 auto;
     width: 175px; 
+  }
+  .project-gif {
+    width: 100%;
+    max-width: 100%;
   }
 /* 
   #header-top .nav 
